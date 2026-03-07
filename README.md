@@ -1,162 +1,146 @@
-# 🚀 Ship Page
+# Ship Page
 
-**Create stunning, interactive landing pages with one prompt. Zero code. Zero dependencies.**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://docs.anthropic.com)
 
-Ship Page is a [Claude Code Skill](https://docs.anthropic.com/en/docs/agents-and-tools/skills) that helps anyone — founders, indie hackers, developers, designers — go from idea to a production-ready landing page in minutes.
+**One prompt. One HTML file. A landing page that actually looks good.**
 
-No frameworks. No build tools. No npm install. Just one beautiful HTML file you can deploy anywhere.
+Ship Page is a [Claude Code Skill](https://docs.anthropic.com/en/docs/agents-and-tools/skills) that generates interactive, production-ready landing pages — no frameworks, no build tools, no npm install. Just a single self-contained HTML file you can deploy anywhere.
 
-> **"Your landing page shouldn't be a template. It should be an experience."**
+> "Your landing page shouldn't be a template. It should be an experience."
 
-<!-- TODO: Add GIF demo here -->
-<!-- ![Ship Page Demo](assets/demo.gif) -->
+<!-- TODO: Replace with actual demo GIF -->
+<!-- ![Demo](assets/demo.gif) -->
 
 ---
 
-## ✨ What Makes This Different
+## Why This Exists
 
-**Built for Shipping** — This isn't a generic website builder. It's purpose-built for product launches: Product Hunt, GitHub releases, indie hacker ship days.
+Most AI-generated web pages look the same. Purple gradients on white backgrounds. "Revolutionize Your Workflow" headlines. Cards with rounded corners and drop shadows. You've seen it a thousand times.
 
-**Show, Don't Tell** — Can't articulate design preferences? No problem. Ship Page generates 3 visual previews and lets you pick what resonates. No design vocabulary required.
+Ship Page takes a different approach:
 
-**⚡ Interactive by Default** — Unlike static page builders, every Ship Page comes alive with scroll animations, animated counters, particle effects, and micro-interactions that make visitors *stay*.
+**Show, don't tell.** You can't describe what you want, but you know it when you see it. So instead of asking you to pick colors and fonts, Ship Page generates three visual previews and lets you choose.
 
-**Anti-AI-Slop** — No purple gradients on white. No "Revolutionize Your Workflow" headlines. Five curated presets inspired by real design references, not generic AI aesthetics.
+**Interactive by default.** Landing pages aren't PDFs. Every Ship Page includes scroll-triggered animations, animated counters, particle effects, hover states, and micro-interactions — the kind of details that make visitors actually stay on your page.
 
-**Zero Dependencies** — A single HTML file will work in 10 years. A React project from 2019? Good luck. Every Ship Page is one self-contained file with inline CSS and JS.
+**Zero dependencies.** The output is a single HTML file with inline CSS and JS. No node_modules, no build step, no framework lock-in. It works today, and it'll work in 10 years.
 
 ---
 
 ## Quick Start
 
-### 1. Install the skill
+### Install
 
 ```bash
-# Create the skill directory
-mkdir -p ~/.claude/skills/ship-page/references
+git clone https://github.com/Zooeyii/ship-page-skill.git /tmp/ship-page
 
-# Copy the files
-cp SKILL.md ~/.claude/skills/ship-page/
-cp references/STYLE_PRESETS.md ~/.claude/skills/ship-page/references/
-cp references/SECTION_LIBRARY.md ~/.claude/skills/ship-page/references/
+mkdir -p ~/.claude/skills/ship-page/references
+cp /tmp/ship-page/SKILL.md ~/.claude/skills/ship-page/
+cp /tmp/ship-page/references/* ~/.claude/skills/ship-page/references/
 ```
 
-### 2. Use it
+### Use
 
-Open Claude Code and just say what you need:
+Open Claude Code and describe what you need:
 
 ```
 > "Create a landing page for my open-source CLI tool called FastBuild"
 ```
 
 ```
-> "I'm launching on Product Hunt tomorrow, make me a page for my AI writing app"
+> "I'm launching on Product Hunt tomorrow — make me a page for my AI writing app"
 ```
 
 ```
 > "Turn this README into an interactive landing page"
 ```
 
-Claude will interview you about your product, show you style options, and generate a complete, interactive landing page.
+Claude will ask about your product, show you style options, and generate a complete page.
 
-### 3. Ship it
-
-The output is a single HTML file. Deploy it anywhere:
+### Ship
 
 ```bash
-# GitHub Pages — just commit and push
-# Netlify / Vercel — drag and drop
-# Or just... open it
 open my-product-landing.html
 ```
 
+That's it. Drop the file on GitHub Pages, Netlify, Vercel, or just open it in a browser.
+
 ---
 
-##  Style Presets
+## Style Presets
 
-Five curated visual directions. Each is a complete design system — not just a color swap.
+Five visual directions. Each is a complete design system — typography, colors, animations, background treatments — not just a color swap.
 
 | Preset | Vibe | Best For |
 |--------|------|----------|
 | **Mission Control** | Dark, tech, sci-fi HUD | Developer tools, AI products, SaaS |
-| **Clean Slate** | Minimal, airy, Linear-esque | Productivity tools, B2B, professional |
+| **Clean Slate** | Minimal, airy, lots of whitespace | Productivity tools, B2B, professional services |
 | **Neon Playground** | Bold, dark, electric | Games, social apps, consumer products |
-| **Warm Craft** | Organic, human, handmade | Personal brands, newsletters, community |
-| **Glass Tower** | Premium, cinematic, luxury | Enterprise, fintech, premium SaaS |
+| **Warm Craft** | Organic, human, handmade feel | Personal brands, newsletters, community |
+| **Glass Tower** | Premium, cinematic, slow animations | Enterprise, fintech, premium SaaS |
 
-<!-- TODO: Add preset preview screenshots -->
-
----
-
-##  Section Library
-
-Every landing page is assembled from battle-tested sections:
-
-- **Hero** — Above the fold with animated headline, CTAs, and background effects
-- **Features Grid** — Responsive cards with hover animations
-- **How It Works** — Numbered steps with scroll-triggered reveals
-- **Stats & Metrics** — Animated counters that count up on scroll
-- **Testimonials** — Social proof cards
-- **Pricing** — Tiered pricing with highlighted recommended plan
-- **FAQ** — Accordion with smooth expand/collapse
-- **CTA Final** — Last push before footer
-
-Each section follows strict density limits to prevent overcrowding. Too much content? Ship Page automatically splits sections.
+Don't like any of them? Mix elements from two presets, or describe your own direction. The presets are starting points, not cages.
 
 ---
 
-##  How It Works (The Skill)
+## What You Get
+
+Every landing page is assembled from a library of battle-tested sections:
+
+**Hero** — Above the fold with headline, CTAs, and background effects. **Features Grid** — Responsive cards with hover animations. **How It Works** — Numbered steps with scroll-triggered reveals. **Stats & Metrics** — Counters that animate on scroll. **Testimonials** — Social proof cards. **Pricing** — Tiered layout with a highlighted plan. **FAQ** — Accordion with smooth expand/collapse. **CTA Final** — Last push before the footer.
+
+Each section has strict density limits. Too much content for one section? Ship Page splits it automatically instead of cramming everything in.
+
+---
+
+## How the Skill Works
 
 ```
-Phase 1: Discovery
-   ↓ Claude asks about your product, audience, and content
-Phase 2: Style Preview  
-   ↓ You pick from 3 generated visual directions
-Phase 3: Generation
-   ↓ Full landing page with animations and interactions
-Phase 4: Iteration
-   ↓ Adjust colors, layout, add/remove sections
-   → Ship it 🚀
+Phase 1: Discovery    → Claude asks about your product and content
+Phase 2: Style Preview → You pick from 3 generated visual directions
+Phase 3: Generation   → Full page with animations and interactions
+Phase 4: Iteration    → Adjust anything, then ship
 ```
 
-This skill uses **progressive disclosure** — the main SKILL.md is a concise ~200-line map, with detailed references loaded only when needed:
+The skill uses progressive disclosure — the main instruction file is ~200 lines. Reference files (presets, section templates) load only when needed:
 
 ```
 ship-page/
-├── SKILL.md              (~200 lines — the map)
+├── SKILL.md                  (the map — always loaded)
 └── references/
-    ├── STYLE_PRESETS.md   (loaded during style discovery)
-    └── SECTION_LIBRARY.md (loaded during generation)
+    ├── STYLE_PRESETS.md      (loaded during style discovery)
+    └── SECTION_LIBRARY.md    (loaded during page generation)
 ```
 
 ---
 
-##  Philosophy
+## Principles
 
-1. **Ship beats perfect.** A beautiful landing page today is worth more than a perfect one next month.
-2. **Dependencies are debt.** A single HTML file will work anywhere, forever. No `node_modules`, no version conflicts, no build failures.
-3. **Interactive > Static.** The web is not a PDF. Scroll animations, hover states, and micro-interactions make visitors remember your product.
-4. **Generic is forgettable.** Every landing page should feel custom-crafted, not spit out by a template engine.
-5. **You don't need to be a designer.** You just need to react to what you see.
+**Ship beats perfect.** A good landing page today is worth more than a perfect one next month.
+
+**Dependencies are debt.** A single HTML file works anywhere, forever. A React project from 2019? Good luck.
+
+**Interactive > Static.** The web is not print. Motion and interaction make people remember your product.
+
+**Generic is forgettable.** Every page should feel like someone actually designed it for this specific product.
 
 ---
 
-##  Contributing
+## Contributing
 
-Found a bug? Want to add a new style preset? PRs are welcome!
+PRs welcome. A few guidelines:
 
-- **New presets**: Add to `references/STYLE_PRESETS.md` following the existing format
-- **New sections**: Add to `references/SECTION_LIBRARY.md` with HTML, CSS, and JS patterns
-- **Skill improvements**: Edit `SKILL.md` — keep it under 250 lines
+- **New presets** — Add to `references/STYLE_PRESETS.md`, follow the existing format
+- **New sections** — Add to `references/SECTION_LIBRARY.md` with HTML, CSS, and JS
+- **Skill changes** — Edit `SKILL.md`, keep it under 250 lines
 
 ---
 
 ## License
 
-MIT — do whatever you want with it.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://docs.anthropic.com)
+MIT
 
 ---
 
-Built with Claude Code. Inspired by the belief that everyone deserves a beautiful launch.
+Built with [Claude Code](https://docs.anthropic.com).
