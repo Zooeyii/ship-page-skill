@@ -15,19 +15,19 @@ No frameworks. No build tools. No npm install. Just one beautiful HTML file you 
 
 ## ✨ What Makes This Different
 
-**🎯 Built for Shipping** — This isn't a generic website builder. It's purpose-built for product launches: Product Hunt, GitHub releases, indie hacker ship days.
+**Built for Shipping** — This isn't a generic website builder. It's purpose-built for product launches: Product Hunt, GitHub releases, indie hacker ship days.
 
-**🎨 Show, Don't Tell** — Can't articulate design preferences? No problem. Ship Page generates 3 visual previews and lets you pick what resonates. No design vocabulary required.
+**Show, Don't Tell** — Can't articulate design preferences? No problem. Ship Page generates 3 visual previews and lets you pick what resonates. No design vocabulary required.
 
 **⚡ Interactive by Default** — Unlike static page builders, every Ship Page comes alive with scroll animations, animated counters, particle effects, and micro-interactions that make visitors *stay*.
 
-**🚫 Anti-AI-Slop** — No purple gradients on white. No "Revolutionize Your Workflow" headlines. Five curated presets inspired by real design references, not generic AI aesthetics.
+**Anti-AI-Slop** — No purple gradients on white. No "Revolutionize Your Workflow" headlines. Five curated presets inspired by real design references, not generic AI aesthetics.
 
-**📦 Zero Dependencies** — A single HTML file will work in 10 years. A React project from 2019? Good luck. Every Ship Page is one self-contained file with inline CSS and JS.
+**Zero Dependencies** — A single HTML file will work in 10 years. A React project from 2019? Good luck. Every Ship Page is one self-contained file with inline CSS and JS.
 
 ---
 
-## 🎬 Quick Start
+## Quick Start
 
 ### 1. Install the skill
 
@@ -72,7 +72,7 @@ open my-product-landing.html
 
 ---
 
-## 🎨 Style Presets
+##  Style Presets
 
 Five curated visual directions. Each is a complete design system — not just a color swap.
 
@@ -88,7 +88,7 @@ Five curated visual directions. Each is a complete design system — not just a 
 
 ---
 
-## 🧩 Section Library
+##  Section Library
 
 Every landing page is assembled from battle-tested sections:
 
@@ -105,7 +105,7 @@ Each section follows strict density limits to prevent overcrowding. Too much con
 
 ---
 
-## 🧠 How It Works (The Skill)
+##  How It Works (The Skill)
 
 ```
 Phase 1: Discovery
@@ -131,7 +131,7 @@ ship-page/
 
 ---
 
-## 💡 Philosophy
+##  Philosophy
 
 1. **Ship beats perfect.** A beautiful landing page today is worth more than a perfect one next month.
 2. **Dependencies are debt.** A single HTML file will work anywhere, forever. No `node_modules`, no version conflicts, no build failures.
@@ -141,7 +141,7 @@ ship-page/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Found a bug? Want to add a new style preset? PRs are welcome!
 
@@ -151,7 +151,7 @@ Found a bug? Want to add a new style preset? PRs are welcome!
 
 ---
 
-## 📄 License
+## License
 
 MIT — do whatever you want with it.
 
