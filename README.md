@@ -154,6 +154,8 @@ Found a bug? Want to add a new style preset? PRs are welcome!
 ## License
 
 MIT — do whatever you want with it.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://docs.anthropic.com)
 
 ---
 
