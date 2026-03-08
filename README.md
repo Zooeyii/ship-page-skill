@@ -4,7 +4,8 @@
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://docs.anthropic.com)
 
 
-https://github.com/user-attachments/assets/1448f163-fb97-4c3e-8e0b-a806c1521929
+
+https://github.com/user-attachments/assets/962d1568-a1ab-44a1-84b9-5fdb38b4df26
 
 
 
