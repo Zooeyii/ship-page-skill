@@ -16,6 +16,10 @@ A Claude Code Skill that generates interactive, production-ready landing pages f
 
 For a live demo, check out the [Ship Page landing page](https://zooeyii.github.io/ship-page-skill/) — built with this skill.
 
+https://github.com/user-attachments/assets/1448f163-fb97-4c3e-8e0b-a806c1521929
+
+
+
 ## Overview
 
 Ship Page brings landing page generation into your terminal. Describe your product, pick a visual style, and get a complete interactive page with scroll animations, animated counters, particle effects, and micro-interactions — all in a single self-contained HTML file.
