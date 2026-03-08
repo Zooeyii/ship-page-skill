@@ -193,6 +193,86 @@ Best for: Enterprise products, premium SaaS, fintech, anything that needs to com
 
 ---
 
+## Preset 6: "Horizon" — Blue Cyber
+
+Inspired by: Tron Legacy interfaces, cyberpunk dashboards, flight sim HUDs.
+Best for: Data tools, monitoring dashboards, infrastructure products, API platforms.
+
+Based on a real, tested template — every value below comes from production code.
+
+```css
+:root {
+  --font-display: 'Rajdhani', sans-serif;
+  --font-body: 'Exo 2', sans-serif;
+  --bg-primary: #1e272e;
+  --bg-secondary: #192a56;
+  --bg-card: rgba(0, 168, 255, 0.08);
+  --text-primary: #f5f6fa;
+  --text-secondary: #dcdde1;
+  --accent: #00a8ff;
+  --accent-light: #0097e6;
+  --accent-hover: #0084c9;
+  --cta-gradient: linear-gradient(135deg, #00a8ff 0%, #0097e6 100%);
+  --border-color: rgba(0, 168, 255, 0.3);
+  --shadow-glow: 0 0 30px rgba(0, 168, 255, 0.25);
+}
+```
+
+**Background treatment**: Grid overlay (50px intervals, blue-tinted at ~0.1 opacity) + concentric pulse circles (3 rings, border-only, slow scale animation) + horizontal scan lines (gradient lines that drift vertically, 15s loop). Creates a "monitoring dashboard" atmosphere. Particles are small blue dots that blink on/off (3s alternating).
+
+**Animation style**: Elements enter with `translateY(50px) → 0` + `opacity: 0 → 1` with 0.3s staggered delays. h1 has an underline that grows from 0 to 100% width over 1.5s. Charts and images scale from 0.9 → 1.0. Progress bars sweep across.
+
+**CTA buttons**: Semi-transparent blue (`rgba(0, 168, 255, 0.2)`) with blue border, hover fills solid blue. Sharp corners (5px radius) — not pill-shaped. Feels precise and technical.
+
+**Section dividers**: Horizontal gradient line (transparent → blue → transparent), or a thin scanning-line animation.
+
+**Special elements**: Data points that blink randomly. Image containers have a rotating scan overlay (gradient spinning 360deg on 3s loop). Clean uppercase headings with letter-spacing.
+
+**Font import**: `https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Exo+2:wght@300;400;500;600;700&display=swap`
+
+---
+
+## Preset 7: "Dual Tone" — Red & Green Contrast
+
+Inspired by: Trading terminal UIs, editorial magazine covers, bold brand identities.
+Best for: Fintech, analytics platforms, bold consumer brands, creative agencies, portfolio sites.
+
+Based on a real, tested template — every value below comes from production code.
+
+```css
+:root {
+  --font-display: 'Clash Display', sans-serif;
+  --font-body: 'Satoshi', sans-serif;
+  --bg-primary: #121212;
+  --bg-secondary: #1a1a1a;
+  --bg-card: rgba(255, 255, 255, 0.03);
+  --text-primary: rgba(255, 255, 255, 0.87);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --accent: #c83e4d;
+  --accent-secondary: #4a9f7b;
+  --accent-hover: #a8323f;
+  --cta-gradient: linear-gradient(135deg, #c83e4d 0%, #4a9f7b 100%);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --shadow-glow: 0 0 15px rgba(200, 62, 77, 0.3);
+}
+```
+
+**Background treatment**: Near-black base (#121212). Subtle grid (40px intervals, white at 0.03 opacity). Particles use a dual-color radial gradient (`radial-gradient(circle, rgba(202, 75, 75, 0.3) 0%, rgba(74, 159, 123, 0.1) 100%)`) — creates a warm, moody atmosphere with two-toned glowing dots.
+
+**Animation style**: Smooth cubic-bezier entrances (`0.16, 1, 0.3, 1`). Elements enter with `translateY(50px) scale(0.95) → translateY(0) scale(1)` — the slight scale adds weight. Stagger delays 0.2s per element. Chart bars use `scaleY(0 → 1)` from bottom with gradient fills (green→red). Timeline items slide in from left with glowing dot markers.
+
+**Key design feature — gradient text**: h1 uses `background: linear-gradient(135deg, var(--accent), var(--accent-secondary))` with `-webkit-background-clip: text` and `color: transparent`. This red→green gradient heading is the signature look.
+
+**CTA buttons**: Pill-shaped (30px radius), glass morphism (`backdrop-filter: blur(5px)`), very subtle border (`rgba(255,255,255,0.1)`). Hover: glow with accent shadow + slight translateY(-2px). Two button variants — red-tinted and green-tinted for primary/secondary.
+
+**Section dividers**: Vertical gradient line for timelines (`linear-gradient(to bottom, var(--accent), var(--accent-secondary))`). Cards have heavy box-shadow (`0 10px 30px rgba(0,0,0,0.5)`) for depth.
+
+**Special elements**: Timeline with vertical gradient line + glowing dot markers. Bar charts with red-to-green gradient fills. Cards use backdrop-filter blur for glass effect. The dual-color system means you always pair red and green — red for emphasis/CTA, green for data/positive indicators.
+
+**Font import**: `https://fonts.googleapis.com/css2?family=Clash+Display:wght@300;400;500;600;700&display=swap` (Note: Clash Display is on fontsource — fallback to `'Sora', sans-serif` if CDN unavailable. Use `https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap`)
+
+---
+
 ## Mixing Presets
 
 When user says "Mix elements", combine thoughtfully:
