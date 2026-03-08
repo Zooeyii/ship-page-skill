@@ -3,6 +3,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://docs.anthropic.com)
 
+
+https://github.com/user-attachments/assets/1448f163-fb97-4c3e-8e0b-a806c1521929
+
+
+
+
 A Claude Code Skill that generates interactive, production-ready landing pages from a single prompt. Zero dependencies — one HTML file, deploy anywhere.
 
 For a live demo, check out the [Ship Page landing page](https://zooeyii.github.io/ship-page-skill/) — built with this skill.
